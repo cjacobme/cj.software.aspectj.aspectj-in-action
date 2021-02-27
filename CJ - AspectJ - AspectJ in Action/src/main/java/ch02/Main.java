@@ -7,5 +7,6 @@ public class Main
 		MessageCommunicator messageCommunicator = new MessageCommunicator();
 		messageCommunicator.deliver("Wanna learn AspectJ?");
 		messageCommunicator.deliver("Harry", "having fun?");
+		System.out.println("last access was " + messageCommunicator.getLastAccessTime());
 	}
 }
