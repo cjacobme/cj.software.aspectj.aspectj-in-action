@@ -11,7 +11,7 @@
  * the License.
  */
 
-package ch02;
+package ch02.ch02;
 
 import java.io.BufferedReader;
 import java.io.IOException;

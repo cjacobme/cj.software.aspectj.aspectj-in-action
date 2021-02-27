@@ -1,4 +1,4 @@
-package ch02;
+package ch02.ch02;
 
 import java.time.OffsetDateTime;
 
