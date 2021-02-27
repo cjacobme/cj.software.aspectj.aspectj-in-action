@@ -3,7 +3,7 @@ package ch02.ch02;
 public aspect ProfilingAspect 
 {
 	pointcut publicOperation()
-		: execution(public * *.*(..));
+		: execution(public * ch02.ch02.*.*(..));
 	
 	Object around() : publicOperation()
 	{
