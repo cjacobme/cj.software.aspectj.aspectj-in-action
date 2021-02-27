@@ -8,5 +8,7 @@ public class Main
 		messageCommunicator.deliver("Wanna learn AspectJ?");
 		messageCommunicator.deliver("Harry", "having fun?");
 		System.out.println("last access was " + messageCommunicator.getLastAccessTime());
+		// following line gets a compiler warning:
+		// new Authenticator().authenticate();
 	}
 }

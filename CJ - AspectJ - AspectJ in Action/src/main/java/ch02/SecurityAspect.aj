@@ -13,4 +13,9 @@ public aspect SecurityAspect
 		System.out.println("checking ant authenticating user...");
 		authenticator.authenticate();
 	}
+	
+	declare warning
+		: call (void Authenticator.authenticate())
+			&& !within(SecurityAspect)
+		: "Authentication should be performed only by Security Acpect";
 }
