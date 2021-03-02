@@ -44,7 +44,7 @@ public class Line
 	{
 		Point position = super.getPosition();
 		String result = String.format(
-				"Line [%03d,03d] -> [03d,03d]",
+				"Line [%03d,%03d] -> [%03d,%03d]",
 				position.getX(),
 				position.getY(),
 				this.point2.getX(),

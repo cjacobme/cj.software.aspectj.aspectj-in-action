@@ -25,8 +25,10 @@ public aspect Boundary
 			{
 				String message = String.format("%s violated canvas width (%d), height (%d)",
 						shape.toString(), canvas.getWidth(), canvas.getHeight());
+				System.out.println("now I'll throw...");
 				throw new IllegalArgumentException(message);
 			}
+			System.out.println("ok");
 		}
 	}
 }
