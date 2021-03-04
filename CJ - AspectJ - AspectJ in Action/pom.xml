@@ -15,6 +15,7 @@
 		<java.version>8</java.version>
 		<aspectj.version>1.9.6</aspectj.version>
 		<log4j.version>2.14.0</log4j.version>
+		<jpa.version>2.2</jpa.version>
 	</properties>
 
 	<dependencies>
@@ -33,6 +34,11 @@
 			<groupId>org.apache.logging.log4j</groupId>
 			<artifactId>log4j-core</artifactId>
 			<version>${log4j.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.persistence</groupId>
+			<artifactId>javax.persistence-api</artifactId>
+			<version>${jpa.version}</version>
 		</dependency>
 	</dependencies>
 
